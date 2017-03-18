@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<webTalkData  fileName='usage_statistics_ext_labtool.xml'  majorVersion='1' minorVersion='0' timeStamp='Fri Mar 10 09:22:56 2017'>
+<section name="__ROOT__" level="0" order="1" description="">
+ <section name="software_version_and_target_device" level="1" order="1" description="">
+  <keyValuePair key="beta" value="FALSE" description="" />
+  <keyValuePair key="build_version" value="1577090" description="" />
+  <keyValuePair key="date_generated" value="Fri Mar 10 09:22:56 2017" description="" />
+  <keyValuePair key="os_platform" value="LIN64" description="" />
+  <keyValuePair key="product_version" value="Vivado v2016.2 (64-bit)" description="" />
+  <keyValuePair key="project_id" value="23966a3b-69c0-40b4-af78-b2b05e276c67" description="" />
+  <keyValuePair key="project_iteration" value="7" description="" />
+  <keyValuePair key="random_id" value="cd8bcce6-b02e-4dc9-ad4e-d64c1894685e" description="" />
+  <keyValuePair key="registration_id" value="cd8bcce6-b02e-4dc9-ad4e-d64c1894685e" description="" />
+  <keyValuePair key="route_design" value="FALSE" description="" />
+  <keyValuePair key="target_device" value="not_applicable" description="" />
+  <keyValuePair key="target_family" value="not_applicable" description="" />
+  <keyValuePair key="target_package" value="not_applicable" description="" />
+  <keyValuePair key="target_speed" value="not_applicable" description="" />
+  <keyValuePair key="tool_flow" value="xsim_vivado" description="" />
+ </section>
+ <section name="user_environment" level="1" order="2" description="">
+  <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz" description="" />
+  <keyValuePair key="cpu_speed" value="2532.750 MHz" description="" />
+  <keyValuePair key="os_name" value="Ubuntu" description="" />
+  <keyValuePair key="os_release" value="Ubuntu 16.04.1 LTS" description="" />
+  <keyValuePair key="system_ram" value="8.000 GB" description="" />
+  <keyValuePair key="total_processors" value="1" description="" />
+ </section>
+ <section name="labtool" level="1" order="3" description="">
+  <section name="usage" level="2" order="1" description="">
+   <keyValuePair key="cable" value="Digilent/Basys3/15000000:" description="" />
+   <keyValuePair key="chain" value="0362D093" description="" />
+   <keyValuePair key="pgmcnt" value="02:00:00" description="" />
+  </section>
+ </section>
+ <section name="vivado_usage" level="1" order="4" description="">
+ </section>
+</section>
+</webTalkData>

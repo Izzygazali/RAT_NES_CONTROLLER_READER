@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Mar 17 21:27:16 2017
+# Process ID: 13348
+# Current directory: C:/Users/Starr/Desktop/FINAL_PROJECT_CPE_233_WINTER_2017_STARR_GAZALI/RATPUTER
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4756 C:\Users\Starr\Desktop\FINAL_PROJECT_CPE_233_WINTER_2017_STARR_GAZALI\RATPUTER\RATPUTER.xpr
+# Log file: C:/Users/Starr/Desktop/FINAL_PROJECT_CPE_233_WINTER_2017_STARR_GAZALI/RATPUTER/vivado.log
+# Journal file: C:/Users/Starr/Desktop/FINAL_PROJECT_CPE_233_WINTER_2017_STARR_GAZALI/RATPUTER\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Starr/Desktop/FINAL_PROJECT_CPE_233_WINTER_2017_STARR_GAZALI/RATPUTER/RATPUTER.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/Starr/Desktop/FINAL_PROJECT_CPE_233_WINTER_2017_STARR_GAZALI/Assembly/prog_rom/prog_rom.vhd
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_msg_config -suppress -id {Project 1-19} 
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Starr/Desktop/FINAL_PROJECT_CPE_233_WINTER_2017_STARR_GAZALI/RATPUTER/RATPUTER.runs/impl_1/RAT_wrapper.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Starr/Desktop/FINAL_PROJECT_CPE_233_WINTER_2017_STARR_GAZALI/RATPUTER/RATPUTER.runs/impl_1/RAT_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
